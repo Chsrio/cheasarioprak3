@@ -77,6 +77,7 @@ Route::prefix('admin')->name('admin.')->group(function() {
     })->name('items');
     });
 
-Route::get('/cloningbs', function(){
-    return view('cloningbs');
+Route::get('/clone', function(){
+    return view('clone');
 });
+
