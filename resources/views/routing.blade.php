@@ -17,7 +17,7 @@
                 Basic Routing (No View, No Controller)
             </a>
 
-            <a href="{{ url('/view_route') }}" class="list-group-item list-group-item-action">
+            <a href="{{ url('/view-route') }}" class="list-group-item list-group-item-action">
                 View Route
             </a>
 

@@ -23,8 +23,8 @@ Route::get('/basic_routing', function() {
     return 'Hello World';
     });
 
-Route::view('/view_route', 'view_route');
-Route::view('/view_route', 'view_route', ['name' => 'Purnama']);
+Route::view('/view-route', 'view-route');
+Route::view('/view-route', 'view-route', ['name' => 'Purnama']);
 
 Route::get('/controller_route', [RouteController::class, 'index']);
 
@@ -39,7 +39,7 @@ Route::get('/user/{id}', function($id) {
     });
 
 Route::get('username/{name?}', function($name = null) {
-    return 'Username: '.$name; });
+    return 'Username: Cheasario '.$name; });
 
 Route::get('/title/{title}', function($title) {
     return "Title: ".$title;

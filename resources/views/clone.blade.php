@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -18,7 +17,7 @@
         <div class="container py-2 px-4">
             <!-- Navbar Brand -->
             <a href="#" class="navbar-brand mb-0 h1">
-                <img class="img-fluid" src="assets/images/logo-white.svg" alt="logo" style="width: 40px;">
+                <img class="img-fluid" src="{{ Vite::asset('resources/images/logo-white.svg') }}" alt="logo" style="width: 40px;">
             </a>
             <!-- Navbar Toggler -->
             <button type="button" class="navbar-toggler" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar">
@@ -131,7 +130,7 @@
         <div class="container py-5 px-4">
             <div class="row">
                 <div class="col-md-5 order-md-2">
-                    <img class="img-fluid" src="assets/images/main.svg" alt="main logo">
+                    <img class="img-fluid" src="{{ Vite::asset('resources/images/main.svg') }}" alt="main logo">
                 </div>
                 <div class="col-md-7 order-md-1">
                     <h1 class="mt-4 display-3">Build fast, responsive sites with
@@ -177,7 +176,7 @@
                     </a>
                 </div>
                 <div class="col-lg-6">
-                    <img class="img-fluid" src="assets/images/bs-icons.png" alt="Bootstrap Icons">
+                    <img class="img-fluid" src="{{ Vite::asset('resources/images/bs-icons.png') }}" alt="Bootstrap Icons">
                 </div>
             </div>
         </div>
@@ -203,7 +202,7 @@
                     </a>
                 </div>
                 <div class="col-lg-6">
-                    <img class="img-fluid" src="assets/images/bs-themes.png" alt="Bootstrap Themes">
+                    <img class="img-fluid" src="{{ Vite::asset('resources/images/bs-themes.png') }}" alt="Bootstrap Themes">
                 </div>
             </div>
         </div>
@@ -216,7 +215,7 @@
                 <div class="col-lg-3 mb-5">
                     <a href="#" class="logo text-decoration-none">
                         <div class="d-flex">
-                            <img class="img-fluid" src="assets/images/logo-black.svg" alt="Bootstrap Logo"
+                            <img class="img-fluid" src="{{ Vite::asset('resources/images/logo-black.svg') }}" alt="Bootstrap Logo"
                                 style="width: 40px;">
                             <div class="fs-5 ms-2 text-black">Bootstrap</div>
                         </div>
